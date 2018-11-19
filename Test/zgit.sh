@@ -5,5 +5,5 @@ read NAME
 
 git add ${NAME}
 git commit -m "init"
-git push origin master
+git push origin a080
 
