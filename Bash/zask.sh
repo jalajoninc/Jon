@@ -10,7 +10,11 @@ func2 () {
             printf "File: %s\n\n" "${i}"
             sips -Z 800 "${i}";
         else
-            func2 "${i}"
+            if [ -d "$i" ]; then
+                func2 "${i}"
+            else
+                printf "Unknown: %s\n\n" "${i}"
+            fi
         fi
     done
     return 0
