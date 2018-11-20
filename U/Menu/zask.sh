@@ -7,10 +7,17 @@ func2 () {
         do
 
         if [ -f "$i" ]; then
-            printf "File: %s\n\n" "${i}"
             sips -Z 400 "${i}";
+#            printf "ok: %s\n\n" "${i}"
         else
-            func2 "${i}"
+
+            if [ -d "$i" ]; then
+                func2 "${i}"
+            else
+                printf "Unknown: %s\n\n" "${i}"
+            fi
+
+
         fi
     done
     return 0
