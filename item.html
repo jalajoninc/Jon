@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+        <title>Firebase example</title>
+        
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+        <script>
+            var config = {
+                apiKey: "AIzaSyDBGViA9RHAnCqNeEF8L6bqSFcKCNyGt98",
+                authDomain: "myhotel-83b2a.firebaseapp.com",
+                databaseURL: "https://myhotel-83b2a.firebaseio.com",
+                projectId: "myhotel-83b2a",
+                storageBucket: "gs://myhotel-83b2a.appspot.com",
+                messagingSenderId: "<SENDER_ID>",
+            };
+        
+        var defaultApp = firebase.initializeApp(config);
+        console.log(defaultApp.name);  // "[DEFAULT]"
+        
+        var upath = 'World/THA/Bangkok/Central/Food/Thai/Yayoi/Menu/Yayoi/menu/Food/Appetizers/California Roll';
+           var ref = firebase.database().ref(upath);
+           ref.on('value', function(snapshot) {
+                  var s = JSON.stringify(snapshot.val(), null, 2);
+                  
+                  var obj = JSON.parse(s);
+                  var d = document.getElementById("c1");
+                  d.innerHTML = obj.item;
+                  document.getElementById("c2").innerHTML = obj.dscr;
+                  document.getElementById("c3").innerHTML = obj.price;
+                  
+                  var x = document.createElement("IMG");
+                  x.setAttribute("src", obj.icon );
+                  x.setAttribute("width", "304");
+                  x.setAttribute("height", "228");
+                  x.setAttribute("alt", "The Pulpit Rock");
+                  document.body.appendChild(x);
+                  
+                  
+                  var itd = document.createElement('div');
+                  
+                  itd.appendChild( document.createTextNode(obj.item) );
+                  itd.appendChild( document.createTextNode(obj.dscr) );
+                  itd.appendChild( document.createTextNode(obj.price) );
+
+                  document.body.appendChild(itd);
+
+                  });
+                                  
+            </script>
+        
+    </head>
+    <body>
+        <h1>Firebase example</h1>
+        
+        <div id="table">
+            <div id="row">
+                <div id="c1">
+                    Mike
+                </div>
+                <div id="c2">
+                    36 years
+                </div>
+                <div id="c3">
+                    Architect
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

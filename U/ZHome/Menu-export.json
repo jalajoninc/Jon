@@ -238,12 +238,12 @@
           }
         },
         "Bakery & Cafe" : {
-          "Bytengraph_-_บายเท็นกราฟ" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/bangkok/Bakery & Cafe/Bytengraph_-_บายเท็นกราฟ",
+          "Bytengraph" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/bangkok/Bakery & Cafe/Bytengraph",
             "icnt" : "60",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u3ao-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Bytengraph_-_บายเท็นกราฟ",
+            "item" : "Bytengraph",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u3ao/bytengraph",
             "visible" : "y",
@@ -1232,7 +1232,7 @@
             "item" : "11:11_DIY_Café",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/t4vp/11-11-d-i-y-cafe",
-            "visible" : "y",
+            "visible" : "n",
             "zcat" : "Thai"
           },
           "Auttarod_Cuisine" : {
@@ -2107,26 +2107,26 @@
             "visible" : "y",
             "zcat" : "Pasta,European,Sandwiches,American"
           },
-          "Arno’s_Burgers_(Chiang_Mai)" : {
+          "Arno's_Burgers_(Chiang_Mai)" : {
             "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/chiang-mai/American/Arno’s_Burgers_(Chiang_Mai)",
             "icnt" : "21",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/t8ku-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Arno’s_Burgers_(Chiang_Mai)",
+            "item" : "Arno's_Burgers_(Chiang_Mai)",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/t8ku/arno-s-burgers-chiang-mai",
             "visible" : "y",
             "zcat" : "Fast Food,Burger,American"
           },
-          "Art_Cafe`_Restaurant_(Chiang_Mai)" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/chiang-mai/American/Art_Cafe`_Restaurant_(Chiang_Mai)",
+          "Art_Cafe_Restaurant_(Chiang_Mai)" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/chiang-mai/American/Art_Cafe_Restaurant_(Chiang_Mai)",
             "icnt" : "80",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/t7ry-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Art_Cafe`_Restaurant_(Chiang_Mai)",
+            "item" : "Art_Cafe_Restaurant_(Chiang_Mai)",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/t7ry/art-cafe-restaurant-chiang-mai",
-            "visible" : "y",
+            "visible" : "n",
             "zcat" : "Meat,International,International,Mexican,American"
           },
           "BB_Burgers_(Chiang_Mai)" : {
@@ -3749,12 +3749,12 @@
           }
         },
         "International" : {
-          "Lilawadee_Restaurant_ร้านอาหารลีลาวดี" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/International/Lilawadee_Restaurant_ร้านอาหารลีลาวดี",
+          "Lilawadee_Restaurant" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/International/Lilawadee_Restaurant",
             "icnt" : "0",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u2ts-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Lilawadee_Restaurant_ร้านอาหารลีลาวดี",
+            "item" : "Lilawadee_Restaurant",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u2ts/lilawadee-restaurant",
             "visible" : "y",
@@ -3966,12 +3966,12 @@
             "visible" : "y",
             "zcat" : "Noodles,Thai,Street Food"
           },
-          "Go_Zen_Roasted_Duck_โกเซนเป็ดย่าง" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Street Food/Go_Zen_Roasted_Duck_โกเซนเป็ดย่าง",
+          "Go_Zen_Roasted_Duck" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Street Food/Go_Zen_Roasted_Duck",
             "icnt" : "11",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u6px-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Go_Zen_Roasted_Duck_โกเซนเป็ดย่าง",
+            "item" : "Go_Zen_Roasted_Duck",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u6px/go-zen-roasted-duck",
             "visible" : "y",
@@ -4177,12 +4177,12 @@
             "visible" : "y",
             "zcat" : "Noodles,Thai"
           },
-          "Chomview_Seafood_ชมวิวซีฟู้ด" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Chomview_Seafood_ชมวิวซีฟู้ด",
+          "Chomview_Seafood" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Chomview_Seafood",
             "icnt" : "0",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u5op-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Chomview_Seafood_ชมวิวซีฟู้ด",
+            "item" : "Chomview_Seafood",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u5op/chomview-seafood",
             "visible" : "y",
@@ -4320,12 +4320,12 @@
             "visible" : "y",
             "zcat" : "Noodles,Thai"
           },
-          "KOTI_Huahin_Restaurants_ร้าน_โกทิ" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/KOTI_Huahin_Restaurants_ร้าน_โกทิ",
+          "KOTI_Huahin_Restaurants" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/KOTI_Huahin_Restaurants",
             "icnt" : "0",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u8yw-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "KOTI_Huahin_Restaurants_ร้าน_โกทิ",
+            "item" : "KOTI_Huahin_Restaurants",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u8yw/koti-hua-hin",
             "visible" : "y",
@@ -4408,12 +4408,12 @@
             "visible" : "y",
             "zcat" : "Seafood,Thai"
           },
-          "Krua_Chada_Kaew_ครัวชฎาแก้ว" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Krua_Chada_Kaew_ครัวชฎาแก้ว",
+          "Krua_Chada_Kaew" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Krua_Chada_Kaew",
             "icnt" : "76",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u3en-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Krua_Chada_Kaew_ครัวชฎาแก้ว",
+            "item" : "Krua_Chada_Kaew",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u3en/krua-chada-kaew",
             "visible" : "y",
@@ -4430,12 +4430,12 @@
             "visible" : "y",
             "zcat" : "Italian,Thai"
           },
-          "Krua_Kannikar_ครัวกรรณิการ์" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Krua_Kannikar_ครัวกรรณิการ์",
+          "Krua_Kannikar" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Krua_Kannikar",
             "icnt" : "17",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u9gr-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Krua_Kannikar_ครัวกรรณิการ์",
+            "item" : "Krua_Kannikar",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u9gr/krua-kannikar",
             "visible" : "y",
@@ -4518,12 +4518,12 @@
             "visible" : "y",
             "zcat" : "Thai"
           },
-          "Lao_Kao_2__ลาวกาว_2" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Lao_Kao_2__ลาวกาว_2",
+          "Lao_Kao_2" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Lao_Kao_2",
             "icnt" : "1",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u8oe-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Lao_Kao_2__ลาวกาว_2",
+            "item" : "Lao_Kao_2",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u8oe/lao-kao-2",
             "visible" : "y",
@@ -4793,12 +4793,12 @@
             "visible" : "y",
             "zcat" : "Thai"
           },
-          "Sabai_Sabai_Seafood_สบาย_สบายซีฟู้ด" : {
-            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Sabai_Sabai_Seafood_สบาย_สบายซีฟู้ด",
+          "Sabai_Sabai_Seafood" : {
+            "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/hua-hin/Thai/Sabai_Sabai_Seafood",
             "icnt" : "9",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/u5rz-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
-            "item" : "Sabai_Sabai_Seafood_สบาย_สบายซีฟู้ด",
+            "item" : "Sabai_Sabai_Seafood",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u5rz/sabai-sabai-seafood",
             "visible" : "y",
@@ -5300,7 +5300,7 @@
             "item" : "Air_bright_Nue_Tom_Ban_Sing__เนื้อต้มบ้านสิงห์",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/u7eu/air-bright-nue-tom-ban-sing",
-            "visible" : "y",
+            "visible" : "n",
             "zcat" : "Thai,Street Food"
           },
           "Arma_Joke_Jub_Sen" : {
