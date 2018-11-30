@@ -11,7 +11,7 @@
             "item" : "All_You_Need",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/t4vk/all-you-need",
-            "visible" : "y",
+            "visible" : "n",
             "zcat" : "Sandwiches,American"
           },
           "BKK_Bagel_Bakery" : {
