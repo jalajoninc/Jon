@@ -1,0 +1,59 @@
+{
+  "alpha" : "0.25",
+  "bg" : "db1c23",
+  "github" : "https://raw.githubusercontent.com/jalajoninc/Jon/a040/U",
+  "zadr" : [ {
+    "adr" : "City Central",
+    "city" : "Khon Khen, Thailand",
+    "email" : "jalajoninc@gmail.com",
+    "fbase" : "Go/James,World/THA/KhonKaen/Central/Food/Thai/James/Order",
+    "lat" : "18.804109",
+    "lng" : "98.967410",
+    "nm" : "All You Need CFG1",
+    "sms" : "john.w.blaine@gmail.com"
+  }, {
+    "adr" : "City Central",
+    "city" : "Khon Khen, Thailand",
+    "email" : "jalajoninc@gmail.com",
+    "fbase" : "Go/James,World/THA/KhonKaen/Central/Food/Thai/James/Order",
+    "lat" : "18.804109",
+    "lng" : "98.967410",
+    "nm" : "All You Need CFG2",
+    "sms" : "john.w.blaine@gmail.com"
+  } ],
+  "zapn" : {
+    "msg" : "hello aker",
+    "proj" : "th.kkaen.central.food.james"
+  },
+  "zdirect" : {
+    "menu" : "Menu"
+  },
+  "zslot" : [ {
+    "dscr" : "01Morning",
+    "time" : "0800-1000:0.0",
+    "title" : "Professional"
+  }, {
+    "dscr" : "02Afternoon",
+    "time" : "1300-1400:0.0",
+    "title" : "Amateur"
+  }, {
+    "dscr" : "03Evening",
+    "time" : "1700-1900:0.0",
+    "title" : "Beginner"
+  } ],
+  "ztabs" : {
+    "biz" : "y",
+    "calendar" : "n",
+    "cart" : "y",
+    "contact" : "y",
+    "gallery" : "y",
+    "home" : "y",
+    "itinerary" : "y",
+    "menu" : "n",
+    "menuc" : "n",
+    "reviews" : "n",
+    "thai" : "y",
+    "zcashonly" : "n",
+    "zstore" : "y"
+  }
+}

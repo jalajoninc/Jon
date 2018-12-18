@@ -4,15 +4,37 @@
       "Food" : {
         "American" : {
           "All_You_Need" : {
+            "dscr" : "hi9",
             "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/bangkok/American/All_You_Need",
-            "icnt" : "12",
             "icon" : "https://images.deliveryhero.io/image/fd-th/LH/t4vk-listing.jpg",
             "icond" : "2018.02.19T15:48:36.GMT",
             "item" : "All_You_Need",
             "type" : "food",
             "viator" : "https://www.foodpanda.co.th/restaurant/t4vk/all-you-need",
-            "visible" : "n",
-            "zcat" : "Sandwiches,American"
+            "visible" : "y",
+            "zadr" : [ {
+              "adr" : "City Central",
+              "city" : "Khon Khen, Thailand",
+              "email" : "jalajoninc@gmail.com",
+              "fbase" : "Go/James,World/THA/KhonKaen/Central/Food/Thai/James/Order",
+              "lat" : "18.804109",
+              "lng" : "98.967410",
+              "nm" : "All You Need",
+              "sms" : "john.w.blaine@gmail.com"
+            } ],
+            "zslot" : [ {
+              "dscr" : "01Morning",
+              "time" : "0800-1000:0.0",
+              "title" : "Professional"
+            }, {
+              "dscr" : "02Afternoon",
+              "time" : "1300-1400:0.0",
+              "title" : "Amateur"
+            }, {
+              "dscr" : "03Evening",
+              "time" : "1700-1900:0.0",
+              "title" : "Beginner"
+            } ]
           },
           "BKK_Bagel_Bakery" : {
             "fbase" : "World/THA/KhonKaen/Central/Food/Thai/James/FPanda/bangkok/American/BKK_Bagel_Bakery",
