@@ -4,8 +4,8 @@
 printf "What is your name?  -> "
 read NAME
 
-TRGDIR='/Users/jblaine/Proj/iOS/iQuantum/Quantum/Images.xcassets/AppIcon.appiconset/'
-STARTDIR='/Users/jblaine/Proj/iOS/iQuantum/Quantum/Images.xcassets/startup.imageset/'
+TRGDIR='/Users/jblaine/Proj/iOS/iFestivalC/Quantum/Images.xcassets/AppIcon.appiconset/'
+STARTDIR='/Users/jblaine/Proj/iOS/iFestivalC/Quantum/Images.xcassets/startup.imageset/'
 STARTF='startup.png'
 
 echo "$NAME"
